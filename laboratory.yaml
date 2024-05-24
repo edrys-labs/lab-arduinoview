@@ -3,7 +3,7 @@ createdBy: 1qbmegtCnebDO
 dateCreated: 1716541543809
 name: Arduinoview - Laboratory
 meta:
-  logo: https://raw.githubusercontent.com/edrys-labs/lab-arduinoview/main/logo.png
+  logo: https://raw.githubusercontent.com/edrys-labs/lab-arduinoview/main/logo.jpg
   description: >-
     This is a general lab where the actual experiment is provided nearly
     entirely by the connected arduino. By using the arduinoview library it is
