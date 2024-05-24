@@ -1,0 +1,93 @@
+id: 9JIUw7ZWXt2jhOdI
+createdBy: 1qbmegtCnebDO
+dateCreated: 1716541543809
+name: Arduinoview - Laboratory
+meta:
+  logo: https://raw.githubusercontent.com/edrys-labs/lab-arduinoview/main/logo.png
+  description: >-
+    This is a general lab where the actual experiment is provided nearly
+    entirely by the connected arduino. By using the arduinoview library it is
+    possible to "host" a website/dashboard on an embedded device, which is then
+    displayed in the browser by using the WebSerial-API.
+  selfAssign: true
+  defaultNumberOfRooms: 0
+members:
+  teacher: []
+  student: []
+modules:
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config: |- 
+      # Welcome to the Arduinoview Laboratory
+
+      If you can see already a station then click onto it and try out the experiment...
+    studentConfig: ''
+    teacherConfig: |-
+      ## Sharing Hardware
+
+      You have loaded this lab and your are in teacher mode.
+      In order to share the hardware with your students, you need to open a stationConfig:
+      
+      
+      1. goto Settings > Station > and click on the URL below
+
+      2. or replace the classroom in this url with station
+
+      
+      Note, the station has to be opened on a Chrome or a Chrome based browser, as it requires the WebSerial-API.
+      
+      
+      ---
+      
+      
+      Then attach an arduino to it that runs arduinoview:
+      
+      
+      https://github.com/edrys-labs/module-arduinoview
+
+
+      and select the appropriate baudrate before connecting.
+
+    stationConfig: ''
+    showInCustom: lobby
+    width: full
+    height: huge
+  - url: https://edrys-labs.github.io/module-arduinoview/index.html
+    config: ''
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: station
+    width: full
+    height: huge
+  - url: https://edrys-labs.github.io/module-station-stream/index.html
+    config: ''
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: station
+    width: half
+    height: medium
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config: >-
+      # Welcome to the Station
+
+
+      If your station is not connected then try to connect, the experiments in
+      this lab require a baudRate of 9600.
+
+
+      ... or if you new to this station an cannot see anything, simply click on
+      reload to trigger a "reload" for the entire scene...
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: |-
+      ## Station configuration
+
+      Make sure that this station runs in Chrome or a Chrome based browser, as it requires the WebSerial-API.
+
+      Connect an arduino that runs arduinoview to this station and select the appropriate baudrate before connecting.
+
+      Thats is it. The experiment should be displayed in the station and all connected students should be able to see it as well.
+    showInCustom: station
+    width: half
+    height: medium
