@@ -2,6 +2,10 @@
 
 Exemplary lab integrations based on [module-arduinoview](https://github.com/edrys-labs/module-arduinoview) for arduino uno and adafruit playground.
 
+Watch it on YouTube:
+
+https://www.youtube.com/watch?v=gb14CpXkoec
+
 ## Installation
 
 In order to compile the examples you need to install the arduinoview at first.
