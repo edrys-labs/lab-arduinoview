@@ -16,10 +16,18 @@
   "modules": [
     {
       "url": "https://edrys-labs.github.io/module-markdown-it/index.html",
-      "config": "# Welcome to the Arduinoview Laboratory\n\nIf you can see already a station then click onto it and try out the experiment...",
-      "studentConfig": "",
-      "teacherConfig": "## Sharing Hardware\n\nYou have loaded this lab and your are in teacher mode.\nIn order to share the hardware with your students, you need to open a stationConfig:\n\n\n1. goto Settings > Station > and click on the URL below\n\n2. or replace the classroom in this url with station\n\n\nNote, the station has to be opened on a Chrome or a Chrome based browser, as it requires the WebSerial-API.\n\n\n---\n\n\nThen attach an arduino to it that runs arduinoview:\n\n\nhttps://github.com/edrys-labs/module-arduinoview\n\n\nand select the appropriate baudrate before connecting.",
-      "stationConfig": "",
+      "config": {
+        "content": "# Welcome to the Arduinoview Laboratory\n\nIf you can see already a station then click onto it and try out the experiment..."
+      },
+      "studentConfig": {
+        "content": ""
+      },
+      "teacherConfig": {
+        "content": "## Sharing Hardware\n\nYou have loaded this lab and your are in teacher mode.\nIn order to share the hardware with your students, you need to open a stationConfig:\n\n\n1. goto Settings > Station > and click on the URL below\n\n2. or replace the classroom in this url with station\n\n\nNote, the station has to be opened on a Chrome or a Chrome based browser, as it requires the WebSerial-API.\n\n\n---\n\n\nThen attach an arduino to it that runs arduinoview:\n\n\nhttps://github.com/edrys-labs/module-arduinoview\n\n\nand select the appropriate baudrate before connecting."
+      },
+      "stationConfig": {
+        "content": ""
+      },
       "showInCustom": "lobby",
       "width": "full",
       "height": "huge"
@@ -46,10 +54,18 @@
     },
     {
       "url": "https://edrys-labs.github.io/module-markdown-it/index.html",
-      "config": "# Welcome to the Station\n\nIf your station is not connected then try to connect, the experiments in this lab require a baudRate of 9600.\n\n... or if you new to this station an cannot see anything, simply click on reload to trigger a \"reload\" for the entire scene...",
-      "studentConfig": "",
-      "teacherConfig": "",
-      "stationConfig": "## Station configuration\n\nMake sure that this station runs in Chrome or a Chrome based browser, as it requires the WebSerial-API.\n\nConnect an arduino that runs arduinoview to this station and select the appropriate baudrate before connecting.\n\nThats is it. The experiment should be displayed in the station and all connected students should be able to see it as well.",
+      "config": {
+        "content": "# Welcome to the Station\n\nIf your station is not connected then try to connect, the experiments in this lab require a baudRate of 9600.\n\n... or if you new to this station an cannot see anything, simply click on reload to trigger a \"reload\" for the entire scene..."
+      },
+      "studentConfig": {
+        "content": ""
+      },
+      "teacherConfig": {
+        "content": ""
+      },
+      "stationConfig": {
+        "content": "## Station configuration\n\nMake sure that this station runs in Chrome or a Chrome based browser, as it requires the WebSerial-API.\n\nConnect an arduino that runs arduinoview to this station and select the appropriate baudrate before connecting.\n\nThats is it. The experiment should be displayed in the station and all connected students should be able to see it as well."
+      },
       "showInCustom": "station",
       "width": "half",
       "height": "medium"
