@@ -63,11 +63,13 @@ modules:
     showInCustom: station
     width: full
     height: huge
-  - url: https://edrys-labs.github.io/module-station-stream/index.html
+  - url: https://edrys-labs.github.io/module-streaming/index.html
     config: ''
     studentConfig: ''
     teacherConfig: ''
-    stationConfig: ''
+    stationConfig:
+      video: true
+      audio: true
     showInCustom: station
     width: half
     height: medium
