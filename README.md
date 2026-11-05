@@ -29,11 +29,11 @@ https://raw.githubusercontent.com/edrys-labs/lab-arduinoview/main/laboratory.yam
 
 https://raw.githubusercontent.com/edrys-labs/lab-arduinoview/main/laboratory.json
 
-before you upload the it to a newly generated classroom at
+before you load it into a classroom at
 
 https://edrys-labs.github.io
 
-1. create new classroom
-2. goto Settings > Share > Restore (from file or url)
+1. create a new classroom
+2. go to ⚙️ Settings → Import / Export → Restore (from a file or a link)
 
 

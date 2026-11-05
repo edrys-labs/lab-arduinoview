@@ -1,5 +1,3 @@
-id: 9JIUw7ZWXt2jhOdI
-createdBy: 1qbmegtCnebDO
 dateCreated: 1716541543809
 name: Arduinoview - Laboratory
 meta:
@@ -28,12 +26,12 @@ modules:
         ## Sharing Hardware
 
         You have loaded this lab and your are in teacher mode.
-        In order to share the hardware with your students, you need to open a stationConfig:
+        In order to share the hardware with your students, you need to open a station:
         
         
-        1. goto Settings > Station > and click on the URL below
+        1. open ⚙️ Settings → Stations and open the station link
 
-        2. or replace the classroom in this url with station
+        2. or replace `classroom` in the address of this page with `station`
 
         
         Note, the station has to be opened on a Chrome or a Chrome based browser, as it requires the WebSerial-API.
